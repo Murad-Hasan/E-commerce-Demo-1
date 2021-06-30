@@ -4,14 +4,16 @@ import {
   Route
 } from 'react-router-dom'
 import './App.module.css';
+import Home from './Pages/Home/Home';
 import Header from './Shared/Header/Header';
 
 function App() {
   return (
     <Router>
+       <Header/>
       <Switch>
         <Route path='/'>
-          <Header/>
+          <Home/>
         </Route>
       </Switch>
     </Router>

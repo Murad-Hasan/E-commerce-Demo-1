@@ -7,9 +7,14 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 const Header = () => {
     const [click, isClick] = useState(false)
+    const [isScrolled, setIsScrolled] = useState(false);
 
+  window.onscroll = () => {
+    setIsScrolled(window.pageYOffset === 0 ? false : true);
+    return () => (window.onscroll = null);
+  };
   return (
-    <header className={styles.navbar}>
+    <header className={isScrolled ? styles.scrolled :  styles.navbar}>
       <nav className="container flex items-center justify-between py-1">
         <div>
           <img src={logo} alt="logo" />
