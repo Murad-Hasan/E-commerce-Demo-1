@@ -4,7 +4,6 @@
 .scrolled{
     background: #ffffff;
     box-shadow: 1px 1px 30px rgba(1, 35, 41, 0.205);
-    border-bottom: 1.5px solid #DADADA;
     position: sticky;
     top: 0;
     z-index: 999;
