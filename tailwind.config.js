@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         "button-blue": "#363853",
+        "font-blue": "#22254D",
+        "card-gray":"#EEEEEE"
       },
     },
     fontFamily: {
