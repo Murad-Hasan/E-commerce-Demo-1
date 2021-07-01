@@ -1,0 +1,26 @@
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+}
+.slider::before{
+    content: '2021';
+    font-size: 130px;
+    position: absolute;
+    color: #e3e6bd;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    top: 140px;
+    left: 50px;
+    z-index: -999;
+}
+
+@media only screen and (max-width: 767px){
+    .slider::before{
+        top: 0;
+        left: 0;
+        font-weight: bold;
+        font-family: 'Playfair Display';
+    }
+}

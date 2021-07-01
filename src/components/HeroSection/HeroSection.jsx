@@ -1,64 +1,13 @@
-import React from 'react';
+import styles from './HeroSection.module.css'
+import HeroSlider from './HeroSlider';
 
 const HeroSection = () => {
     return (
-        <div>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-            <h2>okay</h2>
-        </div>
+        <section className={styles.heroSection}>
+            <div className="container">
+                <HeroSlider/>
+            </div>
+        </section>
     );
 };
 
