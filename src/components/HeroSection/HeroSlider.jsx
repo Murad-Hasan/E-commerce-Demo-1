@@ -38,7 +38,7 @@ export default function HeroSlider() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 montes, aliquam et urna. Et proin netus sit in nibh commodo at.
               </p>
-              <button class="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
+              <button className="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
                 Buy Now <FaArrowRight className="inline-block" />
               </button>
             </div>
@@ -56,7 +56,7 @@ export default function HeroSlider() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 montes, aliquam et urna. Et proin netus sit in nibh commodo at.
               </p>
-              <button class="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
+              <button className="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
                 Buy Now <FaArrowRight className="inline-block" />
               </button>
             </div>
@@ -74,7 +74,7 @@ export default function HeroSlider() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 montes, aliquam et urna. Et proin netus sit in nibh commodo at.
               </p>
-              <button class="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
+              <button className="bg-button-blue hover:bg-gray-900 text-white py-2 px-4 rounded">
                 Buy Now <FaArrowRight className="inline-block" />
               </button>
             </div>

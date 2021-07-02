@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className={`flex items-center justify-evenly flex-1 ${click ? styles.navMenu : styles.navMenuMobile}`}>
         <div className="font-Montserrat font-medium">
-          <ul className={`flex items-center lg:gap-3 md:gap-1 ${styles.menuItems}`}>
+          <ul className={`flex items-center lg:gap-3 md:gap-1  ${styles.menuItems}`}>
             <li>
               <Link className='border-b-2 border-red-400' to="/">HOME</Link>
             </li>
