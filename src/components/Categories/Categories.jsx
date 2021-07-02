@@ -1,6 +1,7 @@
 import styles from './Categories.module.css'
 import man from '../../Assets/pngegg (12) 1.svg'
 import women from '../../Assets/pngegg (11) 1.svg'
+import cardBg from '../../Assets/Rectangle 942.svg'
 const Categories = () => {
     return (
         <section className='category py-32'>
@@ -13,8 +14,8 @@ const Categories = () => {
               </button>
                         <img className='absolute right-0 top-24' src={man} alt="" />
                     </div>
-                    
-                    <div className='bg-card-gray'>
+
+                    <div className={styles.middleBackground}>
                     <h2>1</h2>
                     </div>
 

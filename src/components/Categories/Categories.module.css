@@ -1,0 +1,7 @@
+.middleBackground{
+    width: 100%;
+    /* height: 400px; */
+    background: url('../../Assets/Rectangle\ 942.svg');
+    object-fit: cover;
+    border-radius: 5px;
+}
