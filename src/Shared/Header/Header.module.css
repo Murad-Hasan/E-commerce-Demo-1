@@ -28,6 +28,7 @@
         left: 0px;
         padding: 20px 0px;
         transition: all 0.5s ease;
+        z-index: 999;
     }
 
     .navMenuMobile{
@@ -40,6 +41,7 @@
         top: 84px;
         left: -110%;
         transition: all 0.5s ease;
+        z-index: 999;
     }
     .menuItems{
         display: flex;

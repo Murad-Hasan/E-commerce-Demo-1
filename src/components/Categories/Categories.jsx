@@ -6,10 +6,10 @@ const Categories = () => {
     return (
         <section className='category py-32'>
             <div className="container">
-                <div className='grid grid-cols-3 gap-6 '>
-                    <div className='bg-card-gray rounded relative h-96 align-middle p-5'>
-                        <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold  font-Montserrat'>Men <br /> Collection</h2>
-                        <button class="border-button-blue border text-white py-2 px-4 rounded">
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
+                    <div className='bg-card-gray rounded relative h-96 align-middle mb-10'>
+                        <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold p-5 font-Montserrat'>Men <br /> Collection</h2>
+                        <button class="border-button-blue border ml-5 text-white py-2 px-4 rounded">
                 <span className='text-font-blue'>SHOP NOW</span>
               </button>
                         <img className='absolute right-0 top-24' src={man} alt="" />
@@ -19,9 +19,9 @@ const Categories = () => {
                     <h2>1</h2>
                     </div>
 
-                    <div className='bg-card-gray rounded relative h-96 align-middle p-5'>
-                        <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold  font-Montserrat'>Women <br /> Collection</h2>
-                        <button class="border-button-blue border text-white py-2 px-4 rounded">
+                    <div className='bg-card-gray rounded relative h-96 align-middle mb-10'>
+                        <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold p-5 font-Montserrat'>Women <br /> Collection</h2>
+                        <button class="border-button-blue border ml-5 text-white py-2 px-4 rounded">
                 <span className='text-font-blue'>SHOP NOW</span>
               </button>
                         <img className='absolute right-0 top-24' src={women} alt="" />
