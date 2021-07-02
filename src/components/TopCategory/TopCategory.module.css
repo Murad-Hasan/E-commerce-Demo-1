@@ -1,0 +1,14 @@
+.heading::before{
+  content: '';
+  width: 243px;
+  height: 0;
+  background: #000;
+  border: 5px solid #000000;
+}
+.heading::after{
+  content: '';
+  width: 243px;
+  height: 0;
+  background: #000;
+  border: 5px solid #000000;
+}
