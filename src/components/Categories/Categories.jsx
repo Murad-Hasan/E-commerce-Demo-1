@@ -16,7 +16,14 @@ const Categories = () => {
                     </div>
 
                     <div className={styles.middleBackground}>
-                    <h2>1</h2>
+                     <div className="h-3/4 w-3/4 mx-auto flex items-center justify-center">
+                        <div>
+                        <h2 className='text-4xl text-font-blue  font-extrabold font-Montserrat'>Beats <br /> Collection</h2>
+                         <button class="border-button-blue border text-white py-2 px-4 rounded">
+                           <span className='text-font-blue'>SHOP NOW</span>
+                            </button>
+                        </div>
+                     </div>
                     </div>
 
                     <div className='bg-card-gray rounded relative h-96 align-middle mb-10'>
