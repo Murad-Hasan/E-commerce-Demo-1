@@ -56,7 +56,7 @@ const Header = () => {
                 <input
                   type="text"
                   placeholder="Search Your Items"
-                  className="border bg-gray-50 rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                  className="border bg-gray-50 px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                 />
                 <img
                   className="absolute top-2.5 right-3 cursor-pointer"
