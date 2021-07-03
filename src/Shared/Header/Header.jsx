@@ -42,10 +42,10 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center gap-x-4 search_$_cart">
+        <div className="flex items-center gap-x-2 search_$_cart">
             <div className="search__box">
                 <form className='relative'>
-                   <input type='text' placeholder='Search Your Items' className="border bg-gray-50 rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"/>
+                   <input type='text' placeholder='Search Your Items' className="border bg-gray-50 rounded-full pl-3 p-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"/>
                    <img className='absolute top-2.5 right-3 cursor-pointer' src={searchIcon} alt="searchIcon" />
                 </form>
             </div>
