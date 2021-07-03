@@ -12,7 +12,7 @@ const MenCollection = () => {
         <div className={`rounded overflow-hidden ${styles.leftPic}`}>
           <img src={image1} alt=".." />
         </div>
-        <div className='py-24'>
+        <div className="py-24">
           <div>
             <div className="right-header">
               <h2 className="text-4xl font-Montserrat text-font-blue font-semibold">
@@ -57,10 +57,10 @@ const MenCollection = () => {
               <div className={styles.singleCard}>
                 <img src={image4} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
-                Men’s Jens Pant
+                  Men’s Jens Pant
                 </p>
                 <p className="font-Montserrat font-bold text-lg text-font-blue py-1">
-                $180.00
+                  $180.00
                 </p>
                 <span className="text-yellow-300 flex items-center justify-start">
                   <FaStar />
