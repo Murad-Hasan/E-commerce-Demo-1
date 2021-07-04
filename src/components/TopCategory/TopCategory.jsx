@@ -189,7 +189,7 @@ const TopCategory = () => {
           </div>
         </div>
         <div className={styles.button}>
-        <button class="block mx-auto shadow bg-button-blue hover:bg-font-blue focus:shadow-outline focus:outline-none text-white text-xl py-3 px-10 md:w-96 rounded">Load More</button>
+        <button className="block mx-auto shadow bg-button-blue hover:bg-font-blue focus:shadow-outline focus:outline-none text-white text-xl py-3 px-10 md:w-96 rounded">Load More</button>
         </div>
       </div>
     </section>

@@ -1,6 +1,5 @@
 import styles from "./Header.module.css";
 import logo from "../../Assets/Reche Wears -01 1.svg";
-import searchIcon from "../../Assets/🌈 COLOR.svg";
 import cart from "../../Assets/Vector.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -51,11 +50,11 @@ const Header = () => {
             </ul>
           </div>
           <div className="flex items-center gap-x-2 search_$_cart">
-     <div class="relative mx-auto text-gray-600">
-        <input class="border-2 border-gray-300 bg-white py-2 px-5 pr-8 rounded-full text-sm focus:outline-none"
+     <div className="relative mx-auto text-gray-600">
+        <input className="border-2 border-gray-300 bg-white py-2 px-5 pr-8 rounded-full text-sm focus:outline-none"
           type="search" name="search" placeholder="Search Your Items"/>
-        <button type="submit" class="absolute right-0 top-0 my-3 mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 h-4 w-4 fill-current" viewBox="0 0 57 57" width="512" height="512"><path d="M55.1 51.9L41.6 37.8c3.5-4.1 5.4-9.4 5.4-14.8 0-12.7-10.3-23-23-23s-23 10.3-23 23 10.3 23 23 23c4.8 0 9.3-1.4 13.2-4.2l13.7 14.2c0.6 0.6 1.3 0.9 2.2 0.9 0.8 0 1.5-0.3 2.1-0.8C56.3 55 56.3 53.1 55.1 51.9zM24 6c9.4 0 17 7.6 17 17s-7.6 17-17 17 -17-7.6-17-17S14.6 6 24 6z"/></svg>
+        <button type="submit" className="absolute right-0 top-0 my-3 mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-600 h-4 w-4 fill-current" viewBox="0 0 57 57" width="512" height="512"><path d="M55.1 51.9L41.6 37.8c3.5-4.1 5.4-9.4 5.4-14.8 0-12.7-10.3-23-23-23s-23 10.3-23 23 10.3 23 23 23c4.8 0 9.3-1.4 13.2-4.2l13.7 14.2c0.6 0.6 1.3 0.9 2.2 0.9 0.8 0 1.5-0.3 2.1-0.8C56.3 55 56.3 53.1 55.1 51.9zM24 6c9.4 0 17 7.6 17 17s-7.6 17-17 17 -17-7.6-17-17S14.6 6 24 6z"/></svg>
         </button>
       </div>
             <div className="cart relative">
