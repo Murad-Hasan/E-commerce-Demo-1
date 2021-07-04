@@ -1,8 +1,11 @@
 .bgSize{
-    background: url(../../Assets/sticker-mule-W-CN4ZWwKiY-unsplash\ 1.svg);
     height: 500px;
     width: 100%;
-    object-fit: cover;
+    background: url(../../Assets/sticker-mule-W-CN4ZWwKiY-unsplash\ 1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 .innerContainer{
     display: flex;
