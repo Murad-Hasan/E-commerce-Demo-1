@@ -14,15 +14,15 @@ const TopCategory = () => {
     <section className="py-16">
       <div className="container">
         <div
-          className={`flex justify-center items-center py-10 gap-6 ${styles.heading}`}
+          className={`flex justify-center items-center overflow-hidden py-10 gap-6 ${styles.heading}`}
         >
-          <p className="text-4xl border-b-2 border-red-600 text-font-blue font-semibold font-Montserrat">
+          <p className="md:text-4xl sm:text-xs border-b-2 border-red-600 text-font-blue font-semibold font-Montserrat">
             TOP SELLER
           </p>
-          <p className="text-4xl text-gray-400 font-semibold font-Montserrat">
+          <p className="md:text-4xl sm:text-xs text-gray-400 font-semibold font-Montserrat">
             TOP RATE
           </p>
-          <p className="text-4xl text-gray-400 font-semibold font-Montserrat">
+          <p className="md:text-4xl sm:text-xs text-gray-400 font-semibold font-Montserrat">
             TOP SALE
           </p>
         </div>
@@ -187,6 +187,9 @@ const TopCategory = () => {
               </span>
             </div>
           </div>
+        </div>
+        <div className={styles.button}>
+        <button class="block mx-auto shadow bg-button-blue hover:bg-font-blue focus:shadow-outline focus:outline-none text-white text-xl py-3 px-10 md:w-96 rounded">Load More</button>
         </div>
       </div>
     </section>

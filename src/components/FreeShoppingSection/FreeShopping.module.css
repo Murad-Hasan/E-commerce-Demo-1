@@ -1,0 +1,15 @@
+.bgSize{
+    background: url(../../Assets/sticker-mule-W-CN4ZWwKiY-unsplash\ 1.svg);
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.innerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+}

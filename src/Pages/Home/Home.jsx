@@ -1,5 +1,6 @@
 import React from "react";
 import Categories from "../../components/Categories/Categories";
+import FreeShopping from "../../components/FreeShoppingSection/FreeShopping";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import MenCollection from "../../components/Men'sCollection/MenCollection";
 import TopCategory from "../../components/TopCategory/TopCategory";
@@ -13,6 +14,7 @@ const Home = () => {
       <MenCollection />
       <WomenCollection />
       <TopCategory />
+      <FreeShopping/>
     </>
   );
 };
