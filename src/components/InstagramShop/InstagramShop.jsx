@@ -14,7 +14,7 @@ import shopImage12 from "../../Assets/Rectangle 978.png";
 
 const InstagramShop = () => {
   return (
-    <section className={`mt-9 ${styles.InstagramShop}`}>
+    <section className={`py-24 ${styles.InstagramShop}`}>
       <div className="container">
         <div className="instagramShop">
           <p className="text-font-blue font-bold text-2xl text-center font-Montserrat">

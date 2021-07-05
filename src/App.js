@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom'
 import './App.module.css';
 import Home from './Pages/Home/Home';
+import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Home/>
         </Route>
       </Switch>
+       <Footer/>
     </Router>
   );
 }
