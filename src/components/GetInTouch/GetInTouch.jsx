@@ -1,4 +1,4 @@
-import styles from './GetInTouch.module.css'
+
 
 const GetInTouch = () => {
     return (
