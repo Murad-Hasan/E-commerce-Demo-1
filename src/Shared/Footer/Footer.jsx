@@ -1,4 +1,4 @@
-import logo from "../../Assets/Reche Wears -01 1.svg";
+import logo from "../../Assets/Reche Wears -01 1.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (

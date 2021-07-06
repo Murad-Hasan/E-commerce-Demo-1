@@ -1,12 +1,12 @@
 import styles from "./TopCategory.module.css";
-import bag from "../../Assets/Rectangle 948.svg";
-import hoodies from "../../Assets/Rectangle 956.svg";
-import sneaker from "../../Assets/Rectangle 957.svg";
-import watch from "../../Assets/Rectangle 958.svg";
-import bags from "../../Assets/Rectangle 959.svg";
-import pants from "../../Assets/Rectangle 960.svg";
-import tShirt from "../../Assets/Rectangle 961.svg";
-import gadget from "../../Assets/Rectangle 962.svg";
+import bag from "../../Assets/Rectangle 948.png";
+import hoodies from "../../Assets/Rectangle 956.png";
+import sneaker from "../../Assets/Rectangle 957.png";
+import watch from "../../Assets/Rectangle 958.png";
+import bags from "../../Assets/Rectangle 959.png";
+import pants from "../../Assets/Rectangle 960.png";
+import tShirt from "../../Assets/Rectangle 961.png";
+import gadget from "../../Assets/Rectangle 962.png";
 import { FaStar } from "react-icons/fa";
 
 const TopCategory = () => {

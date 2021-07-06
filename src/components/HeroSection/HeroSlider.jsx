@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import slide1Img from "../../Assets/Flow 1 1.svg";
+import slide1Img from "../../Assets/Flow 1 1.png";
 import { FaArrowRight } from "react-icons/fa";
 
 // Import Swiper styles

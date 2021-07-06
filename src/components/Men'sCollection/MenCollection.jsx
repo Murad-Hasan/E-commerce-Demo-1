@@ -1,8 +1,8 @@
 import styles from "./MenCollection.module.css";
-import image1 from "../../Assets/Rectangle 944.svg";
-import image2 from "../../Assets/Rectangle 945.svg";
-import image3 from "../../Assets/Rectangle 946.svg";
-import image4 from "../../Assets/Rectangle 947.svg";
+import image1 from "../../Assets/Rectangle 944.png";
+import image2 from "../../Assets/Rectangle 945.png";
+import image3 from "../../Assets/Rectangle 946.png";
+import image4 from "../../Assets/Rectangle 947.png";
 import { FaArrowRight, FaStar } from "react-icons/fa";
 
 const MenCollection = () => {

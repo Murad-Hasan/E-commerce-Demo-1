@@ -1,8 +1,8 @@
 import { FaArrowRight, FaStar } from "react-icons/fa";
-import image1 from "../../Assets/Rectangle 945 (1).svg";
-import image2 from "../../Assets/Rectangle 945 (2).svg";
-import image3 from "../../Assets/Rectangle 946 (1).svg";
-import image4 from "../../Assets/Rectangle 947 (1).svg";
+import image1 from "../../Assets/Rectangle 945 (2).png";
+import image2 from "../../Assets/Rectangle 945 (1).png";
+import image3 from "../../Assets/Rectangle 946 (1).png";
+import image4 from "../../Assets/Rectangle 947 (1).png";
 import styles from "./WomenCollection.module.css";
 
 const WomenCollection = () => {

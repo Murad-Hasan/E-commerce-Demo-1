@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import logo from "../../Assets/Reche Wears -01 1.svg";
+import logo from "../../Assets/Reche Wears -01 1.png";
 import cart from "../../Assets/Vector.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";

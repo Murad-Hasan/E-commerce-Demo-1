@@ -1,6 +1,6 @@
 import styles from './Categories.module.css'
-import man from '../../Assets/pngegg (12) 1.svg'
-import women from '../../Assets/pngegg (11) 1.svg'
+import man from '../../Assets/pngegg (12) 1.png'
+import women from '../../Assets/pngegg (11) 1.png'
 const Categories = () => {
     return (
         <section className='category py-32'>
