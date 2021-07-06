@@ -26,7 +26,7 @@ const TopCategory = () => {
             TOP SALE
           </p>
         </div>
-        <div className={`grid grid-cols-4 gap-4${styles.productContainer}`}>
+        <div className={`grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 ${styles.productContainer}`}>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
               <img src={bag} alt="bag" />

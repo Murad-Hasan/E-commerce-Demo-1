@@ -33,15 +33,15 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   visibility: none;
   transition: .5s ease;
   background-color: rgba(114, 112, 114, 0.801);
 }
 
-.card:hover .card__overlay {
+/* .card:hover .card__overlay {
   opacity: 1;
-}
+} */
 
 .overlay__text {
   color: white;

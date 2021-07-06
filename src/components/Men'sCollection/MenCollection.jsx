@@ -7,9 +7,9 @@ import { FaArrowRight, FaStar } from "react-icons/fa";
 
 const MenCollection = () => {
   return (
-    <section className="py-20">
+    <section className="md:py-20 sm:py-5">
       <div className="container grid sm:grid-cols-1  md:grid-cols-2 gap-4">
-        <div className={`rounded overflow-hidden ${styles.leftPic}`}>
+        <div className={`rounded overflow-hidden mx-auto ${styles.leftPic}`}>
           <img src={image1} alt=".." />
         </div>
         <div className="py-24">

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className='pt-5'>
       <div className="container">
-        <div className={`flex justify-between`}>
+        <div className='flex justify-between flex-wrap md:flex-row items-center flex-col sm:gap-y-1'>
          <div className='flex'>
          <div className='footerLogo'>
             <img src={logo} alt="logo" />
@@ -15,8 +15,8 @@ const Footer = () => {
             </h2>
           </div>
          </div>
-          <div className={`self-end  footerMenu`}>
-            <ul className="flex gap-x-4 text-gray-500 font-medium">
+          <div className={`self-center md:self-end footerMenu`}>
+            <ul className="flex gap-x-4 text-gray-500 font-medium flex-wrap">
               <li>
                 <Link to="/">Home </Link>
               </li>
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={`self-end  footerSocialIcon`}>
+          <div className={`self-center md:self-end footerSocialIcon`}>
             <div className="icons flex gap-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -76,9 +76,9 @@ const Footer = () => {
           </div>
         </div>
         <hr  style={{border:'2px solid #f2f2f2', background:'#f2f2f2', marginTop:'20px'}}/>
-        <div className='py-5 flex justify-between'>
+        <div className='py-5 flex justify-between flex-col md:flex-row items-center'>
             <div className="left-content">
-                <p className='text-gray-400 font-semibold text-base'>Terms of use <br /> Privacy Environmental Policy</p>
+                <p className='text-gray-400 font-semibold text-base '>Terms of use <br /> Privacy Environmental Policy</p>
             </div>
             <div className="right-content">
                 <p className='text-gray-400 font-semibold text-base'> Copyright © 2021 Rechi Wears. All Rights Reserved.</p>
