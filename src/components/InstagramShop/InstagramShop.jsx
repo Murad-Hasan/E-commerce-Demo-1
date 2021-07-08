@@ -25,7 +25,7 @@ const InstagramShop = () => {
           </p>
         </div>
         <hr  style={{border:'2px solid #F26649', background:'#F26649', width:'200px', margin:'auto'}}/>
-        <div className={`grid grid-cols-4 gap-4 py-20  ${styles.shopCard}`}>
+        <div className={`grid md:grid-cols-4 grid-cols-1 gap-4 py-20  ${styles.shopCard}`}>
           <div className={styles.card}>
               <img src={shopImage1} alt='cardPic' />
               <div className={styles.card__overlay}>
