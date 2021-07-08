@@ -1,28 +1,12 @@
-/* .card1{
-    height: 100%;
-    width: 100%;
-    background: url(../../Assets/Rectangle\ 967.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.hoverImg::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.6;
-  border-radius: 10px;
-  z-index: 1;
-} */
-
 .card {
   position: relative;
   transition: all .5s ease-in;
+  overflow: hidden;
+}
+.card img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
 .card__overlay {
   border-radius: 10px;
