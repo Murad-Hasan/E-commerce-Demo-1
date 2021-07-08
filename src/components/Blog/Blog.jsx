@@ -12,7 +12,7 @@ const Blog = () => {
                 <div className={`pt-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4`}>
                     <div className={`overflow-hidden`}>
                         <div>
-                            <img className='rounded mx-auto' src={cardImage1} alt="cardImage" />
+                            <img className='rounded mx-auto cursor-pointer' src={cardImage1} alt="cardImage" />
                         </div>
                         <div>
                             <div className="flex justify-around items-center pt-2 time__comments">
@@ -23,13 +23,13 @@ const Blog = () => {
                                 <p className='font-medium text-font-blue text-center'>Our latest product just arrived</p>
                             </div>
                             <div className="paragraph">
-                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm'>Read more</span></span>
+                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm cursor-pointer'>Read more</span></span>
                             </div>
                         </div>
                     </div>
                     <div className='overflow-hidden'>
                         <div>
-                            <img className='rounded mx-auto' src={cardImage2} alt="cardImage" />
+                            <img className='rounded mx-auto cursor-pointer' src={cardImage2} alt="cardImage" />
                         </div>
                         <div>
                             <div className="flex justify-around items-center pt-2 time__comments">
@@ -40,13 +40,13 @@ const Blog = () => {
                                 <p className='font-medium text-font-blue text-center'>Our latest product just arrived</p>
                             </div>
                             <div className="paragraph">
-                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm'>Read more</span></span>
+                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm cursor-pointer'>Read more</span></span>
                             </div>
                         </div>
                     </div>
                     <div className='overflow-hidden'>
                         <div>
-                            <img className='rounded mx-auto' src={cardImage3} alt="cardImage" />
+                            <img className='rounded mx-auto cursor-pointer' src={cardImage3} alt="cardImage" />
                         </div>
                         <div>
                             <div className="flex justify-around items-center pt-2 time__comments">
@@ -57,7 +57,7 @@ const Blog = () => {
                                 <p className='font-medium text-font-blue text-center'>Our latest product just arrived</p>
                             </div>
                             <div className="paragraph">
-                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm'>Read more</span></span>
+                                <span className='text-xs text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias recusandae praesentium et ratione obcaecati veritatis distinctio pariatur quis, laborum voluptatibus, natus quaerat aliquam laudantium nulla incidunt, iure odit!...<span className='font-bold text-sm cursor-pointer'>Read more</span></span>
                             </div>
                         </div>
                     </div>

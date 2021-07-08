@@ -8,8 +8,8 @@ const Categories = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
                     <div className='bg-card-gray rounded relative h-96 align-middle mb-10'>
                         <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold p-5 font-Montserrat'>Men <br /> Collection</h2>
-                        <button className="border-button-blue border ml-5 text-white py-2 px-4 rounded">
-                <span className='text-font-blue'>SHOP NOW</span>
+                        <button className="border-button-blue hover:bg-button-blue transition duration-500 ease-in hover:border-white hover:text-white border ml-5 py-2 px-4 rounded">
+                <span>SHOP NOW</span>
               </button>
                         <img className='absolute right-0 top-24' src={man} alt="" />
                     </div>
@@ -18,8 +18,8 @@ const Categories = () => {
                      <div className="h-3/4 w-3/4 mx-auto flex items-center justify-center">
                         <div>
                         <h2 className='text-4xl text-font-blue  font-extrabold font-Montserrat'>Beats <br /> Collection</h2>
-                         <button className="border-button-blue border text-white py-2 px-4 rounded">
-                           <span className='text-font-blue'>SHOP NOW</span>
+                         <button className="border-button-blue hover:bg-button-blue transition duration-500 ease-in hover:border-white hover:text-white border py-2 px-4 rounded">
+                           <spa>SHOP NOW</spa>
                             </button>
                         </div>
                      </div>
@@ -27,8 +27,8 @@ const Categories = () => {
 
                     <div className='bg-card-gray rounded relative h-96 align-middle mb-10'>
                         <h2 className='text-4xl text-font-blue pt-20 pb-5 font-extrabold p-5 font-Montserrat'>Women <br /> Collection</h2>
-                        <button className="border-button-blue border ml-5 text-white py-2 px-4 rounded">
-                <span className='text-font-blue'>SHOP NOW</span>
+                        <button className="border-button-blue hover:bg-button-blue transition duration-500 ease-in hover:border-white hover:text-white border ml-5 py-2 px-4 rounded">
+                <span>SHOP NOW</span>
               </button>
                         <img className='absolute right-0 top-24' src={women} alt="" />
                     </div>

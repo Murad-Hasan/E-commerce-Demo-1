@@ -9,7 +9,7 @@ const MenCollection = () => {
   return (
     <section className="md:py-20 sm:py-5">
       <div className="container grid sm:grid-cols-1  md:grid-cols-2 gap-4">
-        <div className={`rounded overflow-hidden mx-auto ${styles.leftPic}`}>
+        <div className={`rounded overflow-hidden mx-auto cursor-pointer transform duration-300  hover:scale-105 ${styles.leftPic}`}>
           <img src={image1} alt=".." />
         </div>
         <div className="py-24">
@@ -29,7 +29,7 @@ const MenCollection = () => {
             </div>
             <div className={`grid grid-cols-3 gap-3 ${styles.productCard}`}>
               <div className={styles.singleCard}>
-                <img src={image2} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image2} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Men Shirt
                 </p>
@@ -45,7 +45,7 @@ const MenCollection = () => {
                 </span>
               </div>
               <div className={styles.singleCard}>
-                <img src={image3} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image3} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Men Shoes
                 </p>
@@ -55,7 +55,7 @@ const MenCollection = () => {
                 </p>
               </div>
               <div className={styles.singleCard}>
-                <img src={image4} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image4} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Men’s Jens Pant
                 </p>

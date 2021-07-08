@@ -29,7 +29,7 @@ const TopCategory = () => {
         <div className={`grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 ${styles.productContainer}`}>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={bag} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={bag} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -49,7 +49,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={hoodies} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={hoodies} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -69,7 +69,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={sneaker} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={sneaker} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -89,7 +89,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={watch} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={watch} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -109,7 +109,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={bags} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={bags} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -129,7 +129,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={pants} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={pants} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -149,7 +149,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={tShirt} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={tShirt} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">
@@ -169,7 +169,7 @@ const TopCategory = () => {
           </div>
           <div className={`py-5 ${styles.singleProductCard}`}>
             <div className={styles.productsImage}>
-              <img src={gadget} alt="bag" />
+              <img className='cursor-pointer transform duration-200 hover:scale-105' src={gadget} alt="bag" />
             </div>
             <div className={`py-3 ${styles.productsContent}`}>
               <p className="font-Montserrat font-bold text-font-blue text-xl text-center py-1">

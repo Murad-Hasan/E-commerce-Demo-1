@@ -26,7 +26,7 @@ const WomenCollection = () => {
             </div>
             <div className={`grid grid-cols-3 gap-3 ${styles.productCard}`}>
               <div className={styles.singleCard}>
-                <img src={image2} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image2} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Girl’s Cloth
                 </p>
@@ -42,7 +42,7 @@ const WomenCollection = () => {
                 </span>
               </div>
               <div className={styles.singleCard}>
-                <img src={image3} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image3} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Girl’s Shoes
                 </p>
@@ -52,7 +52,7 @@ const WomenCollection = () => {
                 </p>
               </div>
               <div className={styles.singleCard}>
-                <img src={image4} alt="" />
+                <img className='cursor-pointer transform duration-300  hover:scale-105' src={image4} alt="" />
                 <p className="font-Montserrat font-semibold text-lg text-font-blue py-2">
                   Woen’s T-shirt
                 </p>
@@ -70,7 +70,7 @@ const WomenCollection = () => {
             </div>
           </div>
         </div>
-        <div className={`rounded overflow-hidden mx-auto ${styles.leftPic}`}>
+        <div className={`rounded overflow-hidden mx-auto cursor-pointer transform duration-300  hover:scale-105 ${styles.leftPic}`}>
           <img className="rounded" src={image1} alt=".." />
         </div>
       </div>
